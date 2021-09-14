@@ -1,0 +1,22 @@
+body{
+    background-color:aliceblue;
+}
+#h1{
+    text-align: center;
+    color: blue;
+}
+
+.p1{
+    text-align: center;
+    color: red;
+    background-color: black;
+}
+.p2{
+    text-align: center;
+    color: red;
+    background-color: blue;
+}
+#h3{
+    color: brown;
+    background-color: ;
+}
