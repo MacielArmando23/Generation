@@ -17,25 +17,26 @@ body{
     border-radius: 8%;
 }
 #container{
-    display:flow-root;
+    display: flex;
+    align-items:flex-start;
+    width: 100%;
 }
 #caja p{
-    display: flow-root;
+    display: flex;
     justify-content: center;
     width: 300px;
     background-color: antiquewhite;
     padding: 20px;
     border-radius: 2%;
     text-align: center;
-    margin: 2px 2px;
+    
 }
 #caja1 p{
-    display:inline-flex;
-    justify-content: start;
+    display: flex;
+    justify-content: center;
     width: 300px;
     background-color: antiquewhite;
     padding: 20px;
     border-radius: 2%;
     text-align: center;
-    margin: 2px 2px;
 }
