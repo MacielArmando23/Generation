@@ -1,0 +1,51 @@
+body{
+    background-color: lightgrey;
+    
+}
+nav h1{
+    text-align: center;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    size: 40px;
+}
+h3{
+    border: 20px;
+    margin: 3px;
+    padding: 3px;
+    background-color: dimgrey;
+    width: 80%;
+    margin-left: 10%;
+    color: white;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+.container{
+    display: flex;
+    flex-direction: row;
+    margin-top: 15px;
+    margin-bottom: 15px;
+}
+.img{
+    margin-left: 16%;
+    width: 100px;
+    height: 100px;
+    margin-right: 6px;
+    
+}
+.texto{
+    margin-right: 20%;
+}
+.texto:first-letter {
+	margin-left: 30px;
+}
+#redp{
+    color: red;
+
+}
+#orangep{
+    color: orange;
+
+}
+#greenp{
+    color: green;
+    background-color: white;
+    font-style: italic;
+}
