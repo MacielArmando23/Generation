@@ -11,14 +11,14 @@ const $btn = document.querySelector('#btn');
 const $ol = document.querySelector('ol');
 
 
+$btn.addEventListener('click', () =>{
+    const li = document.createElement('li');
+    li.textContent ="Nuevo elemento click";
+    $ol.appendChild(li);
+});
 const addList = () =>{
-    const $li = document.createElement('li');
-    $li.innerHTML ="Nuevo elemento";
-    $ol.appendChild($li);
+    const li = document.createElement('li');
+    li.textContent ="Nuevo elemento Onclick";
+    $ol.appendChild(li);
     
 }
-$btn.addEventListener('click', () =>{
-    const $li = document.createElement('li');
-    $li.innerHTML ="Nuevo elemento";
-    $ol.appendChild($li);
-});
